@@ -1,0 +1,256 @@
+@media(max-width: 1250px){
+    .spec .slick-prev{
+        left: 0px;
+    }
+    
+    .spec .slick-next{
+        right: 0px;
+    }
+}
+
+@media(max-width: 1030px){
+    .spec__slider-item-block{
+        display: block;
+    }
+
+    .spec__slider-item-img{
+        margin: 0 auto 15px;
+        
+    }
+
+    .spec__slider-item-name{
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .spec__slider-item-name::after{
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .spec__slider-item-prof,
+    .spec__slider-item-year{
+        text-align: center;
+    } 
+}
+
+@media(max-width: 950px){
+    .spec__slider-item-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__inner{
+        flex-flow: wrap;
+        text-align: center;
+    }
+
+    .footer__first{
+        width: 100%;
+        margin-bottom: 12px;
+        order: 1;
+    }
+
+    .footer__copy{
+        order: 3;
+        width: 100%;
+    }
+
+    .footer__bot{
+        width: 100%;
+        margin-bottom: 12px;
+        order: 2;
+    }
+
+    .footer__bot-link{
+        float: none;
+    }
+}
+
+@media(max-width: 850px){
+    .spec__slider-item{
+        margin: 0 20px;
+    }
+}
+
+@media(max-width: 780px){
+    .title--1,
+    .title--2,
+    .title--3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .header__slider-text{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .header__slider-text--1{
+        margin-bottom: 10px;
+    }
+
+    .header__slider-img{
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 730px){
+    .spec__slider-item-text{
+        text-align: center;
+    }
+
+    .header__slider-content{
+        display: block;
+        margin-left: 0;
+    }
+
+    .header__slider-img{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .header__slider-title{
+        text-align: center;
+    }
+
+    .header__slider-text{
+        text-align: center;
+    }
+
+    .header__slider-button{
+        text-align: center;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .phone__content{
+        margin-top: 50px;
+    }
+
+    .phone__list {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    .phone__points{
+        margin-left: 50px;
+    }
+
+    .phone__points span{
+        font-size: 40px;
+        line-height: 48px;
+        margin-right: 15px;
+        left: -60px;
+    }
+
+    .phone__points +.phone__points {
+        margin-top: 35px;
+    }
+}
+
+@media(max-width: 630px){
+    .advantages__items{
+        flex-wrap: wrap;
+    }
+
+    .advantages__item{
+        width: 48%;
+        margin-bottom: 30px;
+    }
+
+    .phone__image{
+        display: none;
+    }
+
+    .phone__item{
+        margin-left: 30px;
+    }
+
+    .phone__content {
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 29px 0 45px 37px;
+    }
+}
+
+@media(max-width: 550px){
+    .advantages__item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .advantages__title {
+        margin-bottom: 47px;
+    }
+
+    .advantages__item-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .advantages__item-img {
+        margin-bottom: 15px;
+    }
+
+    .advantages {
+        padding: 51px 0 20px;
+    }
+
+    .phone {
+        padding-top: 56px;
+        padding-bottom: 68px;
+    }
+
+    .spec {
+        padding: 50px 0 50px;
+    }
+
+    .ex {
+        padding: 40px 0 55px;
+    }
+
+    .header__slider-content {
+        padding-bottom: 33px;
+    }
+
+    .spec__text {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 400px){
+    .ex__inner {
+        font-size: 16px;
+        line-height: 22px;
+        color: #000;
+    }
+
+    .ex__title {
+        margin-bottom: 20px;
+    }
+
+    .ex {
+        padding: 33px 0 35px;
+    }
+
+    .header__slider-img {
+        max-height: 350px;
+    }
+
+    .header__link{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer__logo-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+
