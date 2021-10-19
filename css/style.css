@@ -125,7 +125,7 @@ a{
 .header__slider-button::after{
     position: absolute;
     content: "";
-    width: 26px;
+    width: 24px;
     height: 23px;
     background-image: url(../images/tg.svg);
     margin-left: 6px;
